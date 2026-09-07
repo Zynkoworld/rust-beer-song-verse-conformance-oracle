@@ -1,0 +1,16 @@
+{
+ "oracle_class": "compute-oracle",
+ "oracle_type": "codegen-conformance",
+ "title": "Konformancia-felulet: beer-song (rust, kanonikus exercism korpusz)",
+ "owner": "harvest",
+ "verify": "python3 verify.py",
+ "hardware_free_verify": true,
+ "publish_ready": true,
+ "measurement_byte_lock": "56f964126ab5c5a5bd353b2942ff65f0f175e0b86be87bac473b268e1d70acaa",
+ "evidence_band": "empirical-corpus",
+ "evidence_basis": "sealed ujrafuttatas a KOZOLT kanonikus korpuszon; nem szimbolikus",
+ "not_comparable_with": "symbolic-full-input-space (KLEE-alapu conformance)",
+ "runtime_dependency": "rustc",
+ "summary": "5 kanonikus bemenet/kimenet par, 5 distinct; a referencia PROVEN (pin=fa1bd387e9cece03)",
+ "scope_note": "NEM altalanos helyesseg-orakulum; a kozolt korpuszon kivul semmit nem allit."
+}
